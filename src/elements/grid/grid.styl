@@ -1,0 +1,25 @@
+.row_inline {
+    font-size: 0;
+    
+    >[class ^= "col-"] {        
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        float: none;
+    }
+}
+
+.row_table {
+    display: table;
+    
+	&:before,
+	&:after {
+		border-spacing: 0;
+	}
+	
+    >[class ^= "col-"] {
+        display: table-cell;
+        float: none;
+        vertical-align: top;
+    }
+}

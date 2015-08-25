@@ -1,0 +1,92 @@
+.footer {
+    color: #FFFFFF;
+    background: #0e5377;
+    height: 275px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-weight: 300;
+    font-size: 13px;
+    
+    a {
+        color: #FFFFFF;
+    }
+    
+    &__top {
+        padding: 30px 0 130px;
+    }
+    &__bottom {
+        background: #083045;
+        padding: 30px 0 0;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    &__logo {
+        float: left;
+    }
+    
+    &__info {
+        float: left;
+        margin: 0 50px;
+        opacity: 0.7;
+    }
+    &__copy {
+        float: right;
+        opacity: 0.7;
+    }
+    
+    &__title {
+        text-transform: uppercase;
+        color: #ffdc2e;
+        font-size: 15px;
+    }  
+    &__addr {
+    }
+    
+    &__menu {
+        float: left;
+        width: 50%;
+        font-size: 13px;
+        
+        a {
+            text-decoration: none;
+        }
+        
+        &__item {
+            margin: 0 0 6px 0;
+        }
+    }
+    
+    &__call {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: right;
+        white-space:nowrap;
+        
+        .btn {
+            margin: 8px 0 0;
+        }
+    }
+    
+    &__phone {
+        text-align: center;
+    }
+    &__addr {
+        text-align: center;
+    }
+    &__mail {
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer {
+        height: auto;
+        position: relative;
+    }
+}

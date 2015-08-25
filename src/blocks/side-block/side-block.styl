@@ -1,0 +1,38 @@
+.side-block {
+    border: 1px solid #d2d2d2;
+    background: #FFFFFF;
+    border-radius: 6px;
+    overflow: hidden;
+    
+    &+& {
+        margin-top: 20px;
+    }
+    
+    &__header {
+        color: #FFFFFF;
+        background #ab0e07;
+        padding: 20px 25px;
+    }
+    &__title {
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+    
+    &__body {
+    }
+    
+    &_news {
+        .side-block__body {
+            padding: 20px;
+        }
+        .news-block__image,
+        .news-block__title,
+        .news-block__text {
+            height: auto;
+        }
+        
+        .btn {
+            margin-top: 20px;
+        }
+    }
+}

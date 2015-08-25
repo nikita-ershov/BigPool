@@ -1,0 +1,55 @@
+.nav {
+    font-size: 0;
+    height: 55px;
+    
+    &__block {
+        background: #ffdc2e;
+    }
+    
+    &__item {
+        font-size: 12px;
+        list-style: none;
+        display: inline-block;
+        color: #070707;
+        position: relative;
+        transition: color 0.15s, background 0.15s;
+        border-right: 1px solid #e8c411;
+        width: 16.66666667%;
+        height: 55px;
+        vertical-align: top;
+        line-height: 1.4em;
+        
+        &:first-child {
+            border-left: 1px solid #e8c411;            
+        }
+        
+        &.active {
+            color: #070707;
+            
+            a {
+                color: #070707;
+            }
+        }
+        >a {
+            text-decoration: none;
+            color: #070707;
+            padding: 0 15px 0 80px;
+            display: table-cell;
+            vertical-align: middle;
+            height: 55px;
+            transition: color 0.15s, background 0.15s;
+            
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        
+        &:hover {
+                        
+            a {
+                
+            }
+            
+        }
+    }
+}
