@@ -36,11 +36,13 @@
         display: inline-block;
         padding: 0 0 0 36px;
         color: #808285;
+        position: relative;
         
         .icon-phone {
             position: absolute;
             left: 0;
-            top: 0;
+            top: 50%;
+            margin-top: -12px;
         }
     }
     &__logo {
@@ -50,15 +52,46 @@
         float: left;
         line-height: 24px;
         color: #7f7f7f;
+        font-size: 14px;
+        
+        .icon-euro {
+            color: #0091b7;
+            font-size: 22px;
+            vertical-align: text-top;
+            line-height: 16px;
+            
+            &:before {
+                margin: 0;
+            }
+        }
     }
     &__login {
         float: left;
         margin-left: 40px;
         text-transform: uppercase;
         line-height: 24px;
+        
         a {
             color: #262626;
             text-decoration: none;
+        }
+        
+        .icon-user {
+            color: #0091b7;
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background : #e6e6e5;
+            color: #0091b7;
+            text-align: center;
+            border-radius: 13px;
+            font-size: 14px;
+            vertical-align: middle;
+            margin-left: 3px;
+            
+            &:before {
+                margin: 0;
+            }
         }
     }
     &__basket {
@@ -73,6 +106,10 @@
         }
         
         .icon-basket {
+            color: #0091b7;
+            font-size: 24px;
+            vertical-align: text-top;
+            line-height: 14px;
         }
         
         &__num {
@@ -80,4 +117,5 @@
             font-weight: bold;
         }
     }
+    
 }

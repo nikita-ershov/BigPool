@@ -7,9 +7,9 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
-      "css": "heart",
-      "code": 59395,
+      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
+      "css": "user",
+      "code": 59394,
       "src": "fontawesome"
     },
     {
@@ -19,33 +19,33 @@
       "src": "fontawesome"
     },
     {
-      "uid": "2d6150442079cbda7df64522dc24f482",
-      "css": "arrow-down",
-      "code": 59397,
+      "uid": "486b835e9eebf54eee78ed12b4291b86",
+      "css": "euro",
+      "code": 59393,
       "src": "fontawesome"
     },
     {
-      "uid": "243424d56528e83e4fe9ef6e6347a2ef",
-      "css": "rouble",
-      "code": 59398,
-      "src": "fontawesome"
+      "uid": "7222571caa5c15f83dcfd447c58d68d9",
+      "css": "search",
+      "code": 59396,
+      "src": "entypo"
     },
     {
       "uid": "e0d15ef5945000f5f264acc35494002f",
       "css": "basket",
-      "code": 59394,
+      "code": 59395,
       "src": "typicons"
     },
     {
-      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
-      "css": "map",
-      "code": 59393,
-      "src": "elusive"
+      "uid": "91bac16b22827347e9ee20477f0b44d2",
+      "css": "mail",
+      "code": 59398,
+      "src": "linecons"
     },
     {
-      "uid": "9725db89b610135dc76cd8a21afffa83",
-      "css": "search",
-      "code": 59396,
+      "uid": "1ea8ad6dbe1ae9a73565ad16cf88de19",
+      "css": "map",
+      "code": 59397,
       "src": "linecons"
     }
   ]
