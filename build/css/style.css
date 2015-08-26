@@ -4462,18 +4462,17 @@ tbody.collapse.in {
   bottom: 0;
   left: 0;
   width: 100%;
-  font-weight: 300;
   font-size: 13px;
 }
 .footer a {
   color: #fff;
 }
 .footer__top {
-  padding: 30px 0 130px;
+  padding: 38px 0 110px;
 }
 .footer__bottom {
   background: #083045;
-  padding: 30px 0 0;
+  padding: 28px 0 0;
   height: 100px;
   position: absolute;
   left: 0;
@@ -4487,10 +4486,12 @@ tbody.collapse.in {
   float: left;
   margin: 0 50px;
   opacity: 0.7;
+  line-height: 1.3em;
 }
 .footer__copy {
   float: right;
   opacity: 0.7;
+  margin: 6px 0 0;
 }
 .footer__title {
   text-transform: uppercase;
@@ -4498,32 +4499,46 @@ tbody.collapse.in {
   font-size: 15px;
 }
 .footer__menu {
-  float: left;
-  width: 50%;
-  font-size: 13px;
+  margin: 18px 0 0;
 }
 .footer__menu a {
   text-decoration: none;
 }
-.footer__menu__item {
-  margin: 0 0 6px 0;
-}
-.footer__call {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: right;
-  white-space: nowrap;
-}
-.footer__call .btn {
-  margin: 8px 0 0;
-}
 .footer__phone {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.35em;
+  padding-top: 50px;
+}
+.footer__phone .icon-phone {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
   text-align: center;
 }
 .footer__addr {
   text-align: center;
+  line-height: 1.2em;
+  padding-top: 50px;
+}
+.footer__addr .icon-map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
 }
 .footer__mail {
+  text-align: center;
+  line-height: 1.2em;
+  padding-top: 50px;
+}
+.footer__mail .icon-mail {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
   text-align: center;
 }
 @media (max-width: 700px) {
@@ -4534,18 +4549,21 @@ tbody.collapse.in {
 }
 
 .header {
-  padding: 10px 0;
   font-size: 12px;
 }
 .header .container {
   position: relative;
 }
 .header__top {
-  padding: 20px 0 15px;
+  padding: 30px 0 18px;
 }
 .header__bottom {
   padding: 12px 0 11px;
   border-top: 1px solid #e6e7e8;
+}
+.header__right {
+  float: right;
+  margin: 18px 0 0;
 }
 .header__phone {
   float: left;
@@ -4553,18 +4571,19 @@ tbody.collapse.in {
   text-align: right;
   line-height: 1.1em;
   position: relative;
+  margin-right: 25px;
 }
 .header__worktime {
   position: absolute;
   left: 0;
   bottom: 0;
   font-size: 13px;
+  line-height: 1.8em;
 }
 .header__callback {
   display: inline-block;
   padding: 0 0 0 36px;
   color: #808285;
-  width: 110px;
 }
 .header__callback .icon-phone {
   position: absolute;
@@ -4577,6 +4596,7 @@ tbody.collapse.in {
 .header__course {
   float: left;
   line-height: 24px;
+  color: #7f7f7f;
 }
 .header__login {
   float: left;
@@ -4584,11 +4604,19 @@ tbody.collapse.in {
   text-transform: uppercase;
   line-height: 24px;
 }
+.header__login a {
+  color: #262626;
+  text-decoration: none;
+}
 .header__basket {
   float: left;
   margin-left: 30px;
   text-transform: uppercase;
   line-height: 24px;
+}
+.header__basket a {
+  color: #262626;
+  text-decoration: none;
 }
 .header__basket__num {
   font-size: 14px;
@@ -4601,7 +4629,7 @@ html {
 }
 body {
   margin-bottom: 275px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #212121;
 }
@@ -4774,10 +4802,12 @@ img {
   text-transform: uppercase;
   color: #000;
   font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 1.2px;
 }
 .nav-1__item {
   display: inline;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 45px;
 }
 .nav-1__item a {
   color: #000;
@@ -4787,6 +4817,7 @@ img {
 .nav-2 {
   font-size: 14px;
   color: #4b4948;
+  line-height: 30px;
 }
 .nav-2__item {
   display: inline;
