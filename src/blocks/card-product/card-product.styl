@@ -1,0 +1,89 @@
+.card-product {
+    font-size: 15px;
+    padding: 23px 30px;
+    border: 1px solid #e1e1e1;
+    background: #FFFFFF;
+    position: relative;
+    transition: border 0.2s;
+    
+    &.active,
+    &:hover {        
+        border-color: #0091b7;
+        
+        .card-product__price {
+            display: none;
+        }
+        .card-product__footer .btn {
+            display: inline-block;
+        }
+    }
+    &.active {
+        .card-product__info {
+            display: block;
+        }
+    }
+    
+    &__image {
+        height: 180px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 15px;
+        overflow: hidden;
+        
+    }
+    &__desc {
+        line-height: 1.35em;
+        height: 4.05em;
+        overflow: hidden;
+    }
+    &__price {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    &__footer {
+        height: 39px;
+        margin: 15px 0 0;
+        
+        .btn {
+            display: none;
+        }
+    }
+    &__title {
+        margin-bottom: 18px;
+        
+        a {
+            text-decoration: none;
+        }
+    }
+    &__params {
+        line-height: 1.6em;
+    }
+    
+    .icon-info {
+        color: #858585;
+        border-color: #858585;
+        width: 26px;
+        height: 26px;
+        line-height: 22px;
+        border-radius: 13px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 3px -6px 0 0;
+    }
+    
+    &__info {
+        position: absolute;
+        width: 100%;
+        min-height: 100%;
+        left: 100%;
+        top: 0;
+        margin: 0 0 0 28px;
+        background: #f4f4f4;
+        border: 1px solid #f4f4f4;
+        z-index: 3;
+        padding: 20px 35px;
+        font-size: 13px;
+        color: #000000;
+        display: none;
+    }
+}
