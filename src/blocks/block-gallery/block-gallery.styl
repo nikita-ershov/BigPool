@@ -1,0 +1,31 @@
+.block-gallery {
+    
+    &__thumbs {
+        margin: -5px -5px 10px;
+        
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        &__item {
+            width: 90px;
+            height: 68px;
+            border: 1px solid #d5d6d8;
+            float: left;
+            margin: 5px;
+            overflow: hidden;
+            cursor: pointer;
+            
+            &.active {
+                border: 1px solid #6196e5;
+            }
+        }
+    }
+    
+    &__image {
+        height: 380px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+.list-colors {
+    margin: 10px -10px;
+    
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    &__item {
+        float: left;
+        width: 60px;
+        height: 60px;
+        background: #ebebeb;
+        overflow: hidden;
+        margin: 10px;
+        cursor: pointer;
+        
+        img {
+            cursor: pointer;
+        }
+        
+        &.active {
+            border: 1px solid #0d97bb;
+        }
+    }
+}

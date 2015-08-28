@@ -7,7 +7,7 @@ html {
 body {
     margin-bottom: 275px;
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: #212121;
     min-width: 1190px;
 }
@@ -131,8 +131,9 @@ h5,
 }
 h6,
 .h6 {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.2em;
+    font-weight: 700;
 }
 img {
     max-width: 100%;
@@ -173,4 +174,27 @@ img {
 }
 .screen-height {
     height: 100vh;
+}
+
+
+.block-table {
+    .row {
+        border-bottom: 1px solid #eaeaea;
+        margin: 5px 0;
+        
+        >[class ^= "col-"] {
+            margin-bottom: -5px;
+        }
+        .col-xs-5 {
+            background: #FFFFFF;
+            padding-left: 5px;
+        }
+    }
+    
+    .block-table__label {
+        background: #fff;
+        display: inline-block;
+        margin-left: -15px;
+        padding-right: 5px;
+    }
 }
