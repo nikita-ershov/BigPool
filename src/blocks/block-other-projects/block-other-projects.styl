@@ -1,0 +1,39 @@
+.block-other-projects {
+    &__title {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    &.section {
+        padding: 40px 0;
+    }
+    
+    &__list {
+        margin: 35px 0;
+        position: relative;
+    }
+    
+    &__prev,
+    &__next {
+        width: 40px
+        position: absolute;
+        height: 50px;
+        line-height: 50px;
+        top: 50%;
+        margin-top: -57px;
+        font-size: 44px;
+        cursor: pointer;
+        
+        .icon-left,
+        .icon-right {
+            margin: 0 0 0 -12px;
+        }
+    }
+    
+    &__prev {
+        left: -50px;
+    }
+    &__next {
+        right: -50px;
+    }
+}

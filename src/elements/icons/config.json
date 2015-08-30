@@ -19,6 +19,12 @@
       "src": "fontawesome"
     },
     {
+      "uid": "f48ae54adfb27d8ada53d0fd9e34ee10",
+      "css": "trash",
+      "code": 59401,
+      "src": "fontawesome"
+    },
+    {
       "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
       "css": "phone",
       "code": 59392,
@@ -37,10 +43,28 @@
       "src": "entypo"
     },
     {
+      "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
+      "css": "left-open-big",
+      "code": 59402,
+      "src": "entypo"
+    },
+    {
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59403,
+      "src": "entypo"
+    },
+    {
       "uid": "e0d15ef5945000f5f264acc35494002f",
       "css": "basket",
       "code": 59395,
       "src": "typicons"
+    },
+    {
+      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
+      "css": "map-solid",
+      "code": 59400,
+      "src": "elusive"
     },
     {
       "uid": "91bac16b22827347e9ee20477f0b44d2",
